@@ -7,19 +7,19 @@ img {
 
 h1 {
     color: white;
-    text-align: left;
+    text-align: center;
     font-weight: 700;
     font-size: 50px;
-    margin-bottom: 50px;
-    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-h1::after {
-    content: '';
-    width: 100px;
-    height:6px;
-    background-color: #66a2fe;
-    display: block;
-}
+/*h1::after {*/
+/*    content: '';*/
+/*    width: 100px;*/
+/*    height:6px;*/
+/*    background-color: #66a2fe;*/
+/*    display: block;*/
+/*}*/
 .container img {
     margin-top: 150px;
 }
@@ -108,11 +108,13 @@ p.precio{
 }
 
 @keyframes sk-bouncedelay {
-    0%, 80%, 100% { 
+    0%, 80%, 100% {
         -webkit-transform: scale(0);
         transform: scale(0);
-    } 40% { 
+    } 40% {
         -webkit-transform: scale(1.0);
         transform: scale(1.0);
     }
 }
+
+
